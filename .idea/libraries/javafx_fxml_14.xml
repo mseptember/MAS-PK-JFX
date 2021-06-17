@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javafx-fxml-14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JavaFXTest/lib/javafx-fxml-14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../JavaFXTest/lib/javafx-fxml-14.jar!/" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label text="Szczegóły">
+                    <font>
+                        <Font size="30.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label text="ID">
+                    <font>
+                        <Font name="System Italic" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="10.0" text="Imię">
+                    <font>
+                        <Font name="System Italic" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="28.0" text="Data ur.">
+                    <font>
+                        <Font name="System Italic" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="45.0" text="Płeć">
+                    <font>
+                        <Font name="System Italic" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="63.0" text="Wysokość">
+                    <font>
+                        <Font name="System Italic" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="80.0" text="Waga">
+                    <font>
+                        <Font name="System Italic" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+            </children>
+            <HBox.margin>
+                <Insets bottom="10.0" left="10.0" top="10.0"/>
+            </HBox.margin>
+        </VBox>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label>
+                    <font>
+                        <Font size="30.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" text="1234">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="10.0" text="Puszek">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="28.0" text="20.04.2018">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="45.0" text="M">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="63.0" text="30">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+                <Label layoutX="10.0" layoutY="80.0" text="2">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="20.0"/>
+                    </VBox.margin>
+                </Label>
+            </children>
+            <HBox.margin>
+                <Insets bottom="10.0" left="10.0" top="10.0"/>
+            </HBox.margin>
+        </VBox>
+        <VBox alignment="BOTTOM_CENTER" prefHeight="200.0" prefWidth="150.0">
+            <children>
+                <Button layoutX="10.0" layoutY="36.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0"
+                        text="Wyświetl choroby" onAction="#wyswietlChoroby">
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Przypisz badanie">
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0"
+                        text="Przypisz lek">
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Wróc">
+                    <VBox.margin>
+                        <Insets bottom="10.0" top="10.0"/>
+                    </VBox.margin>
+                </Button>
+            </children>
+            <HBox.margin>
+                <Insets bottom="20.0" left="10.0" right="10.0"/>
+            </HBox.margin>
+        </VBox>
+    </children>
+</HBox>
